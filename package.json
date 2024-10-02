@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-portfolio",
+  "version": "1.0.0",
+  "description": "Tailwind css portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./dist/src/input.css -o ./dist/src/output.css --watch"
+  },
+  "author": "Majesty",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
