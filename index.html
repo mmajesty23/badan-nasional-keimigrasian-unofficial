@@ -4,9 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/src/css/output.css" />
-    <title>MMajesty</title>
+    <script src="./dist/src/js/script.js" defer></script>
+    <title>Badan Nasional Keimigrasian</title>
   </head>
   <body>
-    <p class="">hello</p>
+    <!-- short header description start -->
+    <div
+      class="flex flex-wrap items-center justify-center gap-2 w-full py-1 px-2 bg-[#C1BFBF]"
+    >
+      <img
+        width="25"
+        height="25"
+        src="./dist/src/img/Desain tanpa judul.svg"
+        alt="Logo Imigrasi"
+      />
+      <p class="text-xs lg:text-base">
+        Badan Nasional Keimigrasian - Indonesia Government Unofficial Website
+      </p>
+    </div>
+    <!-- short header description end -->
+
+    <header>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="px-4 py-2">
+            <a href="#"
+              ><img
+                width="75"
+                height="75"
+                src="./dist/src/img/Desain tanpa judul.svg"
+                alt="Logo Imigrasi"
+            /></a>
+          </div>
+
+          <!-- navigation start -->
+          <div class="flex items-center p-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="w-[35px] h-[4px] my-2 block bg-slate-900 transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="w-[35px] h-[4px] my-2 block bg-slate-900 transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="w-[35px] h-[4px] my-2 block bg-slate-900 transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+          </div>
+
+          <!-- navigation end -->
+        </div>
+      </div>
+    </header>
   </body>
 </html>
