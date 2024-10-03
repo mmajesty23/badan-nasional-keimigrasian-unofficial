@@ -4,7 +4,7 @@
   "description": "Tailwind css portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tailwindcss -i ./dist/src/input.css -o ./dist/src/output.css --watch"
+    "start": "npx tailwindcss -i ./dist/src/css/input.css -o ./dist/src/css/output.css --watch"
   },
   "author": "Majesty",
   "license": "ISC",
